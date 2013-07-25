@@ -5,7 +5,6 @@ set :application, "learningpuppet"
 
 set :scm, :git
 set :repository, "git@github.com:helenes/learningpuppet.git"
-set :ssh_options, { :forward_agent => true}
 set :scm_passphrase, ""
 
 set :user, "root"
